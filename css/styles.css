@@ -1,3 +1,37 @@
-h1 {
-    color: blue;
+/* RESET */
+* {
+    box-sizing: border-box; /* Border y padding hacia adentro, no ocupan mas espacio del establecido */
+    margin: 0;
+}
+
+body {
+   
+}
+
+.box {
+    border: solid 3px black;
+    height: 250px;
+    width: 250px;
+}
+
+.container {
+    border: solid 3px green;
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.img-container {
+    border: 5px solid violet;
+    height: 200px;
+    width: 100%;
 }
