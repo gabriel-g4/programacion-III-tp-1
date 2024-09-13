@@ -4,15 +4,43 @@
     margin: 0;
 }
 
+.arriba, .arriba:visited {
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(177, 129, 26);
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    padding: 8px;
+    background-color: pink;
+
+}
+
 body {
     background-color: navajowhite;
 }
 
 .box {
     background-color: pink;
-    
     height: 250px;
     width: 250px;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .container {
@@ -28,6 +56,22 @@ body {
     background-color: rgb(177, 129, 26);
 }
 
+#container-nosotros{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+
+div.container {
+    align-items: flex-start;
+    background-color: pink;
+}
+
+.container p {
+    padding: 20px;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -41,21 +85,31 @@ footer a {
     color: white;
 }
 
+form div {
+    padding: 10px;
+}
+
 h1 {
     text-align: left;
     text-decoration: underline;
     margin: 25px;
 }
 
-.box img {
-    height: 100%;
-    width: 100%;
-}
 
 .img-container {
     border: 5px solid pink;
     height: 200px;
     width: 100%;
+}
+
+label {
+    padding: 20px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
 }
 
 .navbar {
@@ -82,6 +136,25 @@ nav ul li {
 nav ul li a:link, nav ul li a:visited{
     text-decoration: underline navajowhite;
     color: pink;
+}
+
+.text.pink {
+    background-color: pink;
+}
+
+
+.subtitle {
+    text-align: center;
+    margin: 25px;
+    font-style: italic;
+}
+
+.text {
+    background-color: navajowhite;
+}
+
+textarea {
+    resize: none;
 }
 
 .text-card {
@@ -112,6 +185,14 @@ nav ul li a:link, nav ul li a:visited{
     margin-bottom: 50px;
 }
 
+.text-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
 .title, .title:visited {
     font-size: x-large;
     margin: 0 auto;
@@ -129,7 +210,9 @@ nav ul li a:link, nav ul li a:visited{
     text-align: center;
 }
 
-#subtitle {
+
+
+.video-container {
+    margin: 0 auto;
     text-align: center;
-    margin: 25px;
 }
